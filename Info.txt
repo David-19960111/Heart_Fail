@@ -1,0 +1,26 @@
+Contexto
+Las enfermedades cardiovasculares (ECV) son la principal causa de muerte en todo el mundo y 
+se cobran aproximadamente 17,9 millones de vidas cada año, lo que representa el 31 % de todas las muertes 
+en todo el mundo. 
+Cuatro de cada 5 muertes por ECV se deben a ataques cardíacos y accidentes cerebrovasculares, 
+y un tercio de estas muertes ocurren prematuramente en personas menores de 70 años. 
+La insuficiencia cardíaca es un evento común causado por ECV
+y este conjunto de datos contiene 11 características que pueden usarse para predecir una posible enfermedad cardíaca.
+
+Las personas con enfermedades cardiovasculares o que tienen un alto riesgo cardiovascular 
+(por la presencia de uno o más factores de riesgo como hipertensión, diabetes, hiperlipidemia o enfermedad ya establecida), 
+necesitan una detección y manejo temprano en el que un modelo de aprendizaje automático puede ser de gran ayuda.
+
+Información de atributo
+Edad: edad del paciente [años]
+Sexo: sexo del paciente [M: Masculino, F: Femenino]
+ChestPainType: tipo de dolor torácico [TA: angina típica, ATA: angina atípica, NAP: dolor no anginoso, ASY: asintomático]
+PA en reposo: presión arterial en reposo [mm Hg]
+Colesterol: colesterol sérico [mm/dl]
+BS en ayunas: azúcar en sangre en ayunas [1: si BS en ayunas > 120 mg/dl, 0: en caso contrario]
+ECG en reposo: resultados del electrocardiograma en reposo [Normal: normal, ST: con anomalías en la onda ST-T (inversión de la onda T y/o elevación o depresión del ST > 0,05 mV), HVI: hipertrofia ventricular izquierda probable o definitiva según los criterios de Estes]
+MaxHR: frecuencia cardíaca máxima alcanzada [Valor numérico entre 60 y 202]
+ExerciseAngina: angina inducida por el ejercicio [Y: Sí, N: No]
+Oldpeak: oldpeak = ST [Valor numérico medido en depresión]
+ST_Slope: la pendiente del segmento ST del ejercicio máximo [Arriba: pendiente ascendente, Plana: plana, Abajo: pendiente descendente]
+Enfermedad cardíaca: clase de salida [1: enfermedad cardíaca, 0: normal]
